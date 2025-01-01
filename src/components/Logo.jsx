@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function Logo() {
   return (
-    <NavLink to="/" className="flex items-center gap-1 text-[24px] text-Primary font-semibold " >
+    <NavLink to="/" className="flex items-center gap-1 text-[2.4rem] text-Primary font-semibold " >
           <svg
             width="21"
             height="19"

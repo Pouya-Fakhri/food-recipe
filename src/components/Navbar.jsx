@@ -8,7 +8,7 @@ function Navbar() {
       <ul className="flex justify-between items-center" >
         <Logo />
         <li className="w-[60%]" >
-          <ul className=" flex justify-evenly text-[20px]">
+          <ul className=" flex justify-evenly text-[2rem] ">
             <NavLink to="/" >Home</NavLink>
             <NavLink  to="Recipe" >Recipe</NavLink>
             <NavLink  to="Community" >Community</NavLink>

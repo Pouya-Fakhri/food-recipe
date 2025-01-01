@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    font-size: 62.5%;
+}
 .active{
     color: #046E1B;
+    
 }

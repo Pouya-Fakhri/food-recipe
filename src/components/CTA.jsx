@@ -6,7 +6,7 @@ function CTA() {
   return (
     <div className="w-full px-24 mt-28">
       <div className="bg-Primary h-[420px] text-white flex flex-col justify-between relative p-20 rounded-3xl ">
-        <p className="font-semibold text-[46px] w-9/12">
+        <p className="font-semibold text-[4.6rem] w-9/12">
           Embrace the joy of cooking with get it on your iPhone or Android Your
           kitchen adventure begins now!
         </p>

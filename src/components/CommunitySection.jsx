@@ -53,7 +53,7 @@ function CommunitySection() {
   console.log(data);
   return (
     <div className="CommunitySection  px-24 flex flex-col items-center mt-24">
-      <h2 className="font-semibold text-[46px] ">From Our Community</h2>
+      <h2 className="font-semibold text-[4.6rem] ">From Our Community</h2>
       <div className="container flex flex-wrap justify-between w-full  ">
         {data.map((item) => (
           <CommunityPost
