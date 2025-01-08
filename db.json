@@ -1,0 +1,98 @@
+{
+    "comunityPost":[
+        {
+          "recepyName": "Omlet",
+          "recepyDescription":
+            "this is a recepy of omlet Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quorepudiandae dolorem neque minus tenetur molestias vitae quisquam",
+          "recepyImage": "https://images.unsplash.com/photo-1663059364204-e33b6bb49cc5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "stars": 5,
+          "likes": 100,
+          "username": "Dash Vahid",
+          "userImage": "https://images.unsplash.com/photo-1648415041078-d5b259c683be?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "id": 1
+        },
+        {
+            "recepyName": "Jooje Kebab",
+            "recepyDescription":
+              "this is a recepy of jooje kebab Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quorepudiandae dolorem neque minus tenetur molestias vitae quisquam",
+            "recepyImage": "https://images.unsplash.com/photo-1631054235886-c40c45b03f01?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "stars": 5,
+            "likes": 100,
+            "username": "Hasan ",
+            "userImage": "https://plus.unsplash.com/premium_photo-1682089804117-cea5d901647f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "id": 1
+          },
+          {
+            "recepyName": "Makorony",
+            "recepyDescription":
+              "this is a recepy of Makorony Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quorepudiandae dolorem neque minus tenetur molestias vitae quisquam",
+            "recepyImage": "https://images.unsplash.com/photo-1719670935060-0ae865815b8d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "stars": 5,
+            "likes": 100,
+            "username": "Agdas ",
+            "userImage": "https://plus.unsplash.com/premium_photo-1664203068145-b1d7d1680f6c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "id": 1
+          },
+          {
+            "recepyName": "Kebab Koobide",
+            "recepyDescription":
+              "this is a recepy of kebab koobide Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quorepudiandae dolorem neque minus tenetur molestias vitae quisquam",
+            "recepyImage": "https://media.istockphoto.com/id/479478427/photo/iranian-kebab.webp?a=1&b=1&s=612x612&w=0&k=20&c=gPiDbL8qDmuRiznbRA0LGgjXiLUvFinmtgcC7Ae2n1I=",
+            "stars": 5,
+            "likes": 100,
+            "username": "Amir ",
+            "userImage": "https://plus.unsplash.com/premium_photo-1675080431524-3e7c85323972?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "id": 1
+          }
+      ],
+      "popularRecepies": [
+        {
+            "id": 1,
+            "name": "Spaghetti Carbonara",
+            "image": "https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cookingDuration": 30,
+            "cookingLevel": "medium",
+            "servingNumber": 4
+        },
+        {
+            "id": 2,
+            "name": "Grilled Chicken Salad",
+            "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cookingDuration": 20,
+            "cookingLevel": "easy",
+            "servingNumber": 2
+        },
+        {
+            "id": 3,
+            "name": "Beef Wellington",
+            "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cookingDuration": 120,
+            "cookingLevel": "hard",
+            "servingNumber": 6
+        },
+        {
+            "id": 4,
+            "name": "Vegetable Stir Fry",
+            "image": "https://images.unsplash.com/photo-1485962307416-993e145b0d0d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cookingDuration": 15,
+            "cookingLevel": "easy",
+            "servingNumber": 3
+        },
+        {
+            "id": 5,
+            "name": "Chocolate Lava Cake",
+            "image": "https://images.unsplash.com/photo-1465014925804-7b9ede58d0d7?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cookingDuration": 25,
+            "cookingLevel": "medium",
+            "servingNumber": 4
+        },
+        {
+            "id": 6,
+            "name": "Tacos al Pastor",
+            "image": "https://images.unsplash.com/photo-1432139509613-5c4255815697?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cookingDuration": 45,
+            "cookingLevel": "medium",
+            "servingNumber": 4
+        }
+      ]
+}

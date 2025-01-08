@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import RecepieCard from "./RecepieCard";
+import useGetPopularRecepies from "../hooks/useGetPopularRecepies";
 
 const foods = [
   {
@@ -53,9 +54,10 @@ const foods = [
   }
 ];
 
-    
-
 function PopularRecepies() {
+  const recepei = useGetPopularRecepies()
+    console.log(recepei)
+
   return (
     <div className=" mt-[200px] px-24">
       <div className="row flex w-full justify-between">
@@ -66,7 +68,7 @@ function PopularRecepies() {
         <Button width={150} height={55} text="See All"/>
       </div>
       <div className="recepeis-container w-full h-[254px] pt-[70px] flex justify-between flex-wrap ">
-        {foods.map((food)=> <RecepieCard image={food.image} time={food.cookingDuration} serving={food.servingNumber} level={food.cookingLevel} name={food.name} id={food.id} />)}
+        {recepei.map((food)=> <RecepieCard image={food.image} time={food.cookingDuration} serving={food.servingNumber} level={food.cookingLevel} name={food.name} id={food.id} />)}
       </div>
     </div>
   );

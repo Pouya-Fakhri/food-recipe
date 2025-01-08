@@ -9,10 +9,10 @@ function Navbar() {
         <Logo />
         <li className="w-[60%]" >
           <ul className=" flex justify-evenly text-[2rem] ">
-            <NavLink to="/" >Home</NavLink>
-            <NavLink  to="Recipe" >Recipe</NavLink>
-            <NavLink  to="Community" >Community</NavLink>
-            <NavLink  to="About" >About Us</NavLink>
+            <NavLink to="/" className={"text-[2rem]"} >Home</NavLink>
+            <NavLink  to="Recipe"  className={"text-[2rem]"} >Recipe</NavLink>
+            <NavLink  to="Community"  className={"text-[2rem]"} >Community</NavLink>
+            <NavLink  to="About"  className={"text-[2rem]"} >About Us</NavLink>
           </ul>
         </li>
         <li className="w-[6%]" >
