@@ -1,20 +1,29 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 
 function useGetPopularRecepies() {
-    const [recepies, setrecepies] = useState([{}]);
-    useEffect(() => {
-      axios
+  const [recepies, setrecepies] = useState(null);
+  const [errore, setErorre] = useState(null);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    async function fetch() {
+      setLoading(true);
+         axios
         .get("http://localhost:3000/popularRecepies")
         .then((res) => {
-            setrecepies(res.data);
+          setrecepies(res.data);
         })
         .catch((err) => {
-          console.log(err.message);
+          setErorre(err.message);
+        })
+        .finally(() => {
+          setLoading(false);
         });
-    }, []);
-  
-    return recepies;
+    }
+    fetch();
+  }, []);
+
+  return { recepies, errore, loading };
 }
 
-export default useGetPopularRecepies
+export default useGetPopularRecepies;

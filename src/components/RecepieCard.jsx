@@ -1,16 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function RecepieCard({
-  image,
-  time = 10,
-  serving = 2,
-  level = "Easy",
-  name,
-  id,
-}) {
+function RecepieCard({ image, time, serving, level, name, id,}) {
   return (
-    <div className="recepie-card w-[375px] h-[370px] rounded-3xl shadow-comment overflow-hidden flex flex-col gap-10 mt-10">
+    <div
+      className="recepie-card w-[375px] h-[370px] rounded-3xl shadow-comment overflow-hidden flex flex-col gap-10 mt-10"
+    >
       <div
         className="image-box w-full h-[254px] relative"
         style={{ backgroundImage: `url(${image})`, backgroundSize: "cover" }}
